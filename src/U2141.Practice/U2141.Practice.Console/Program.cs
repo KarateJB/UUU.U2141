@@ -24,11 +24,17 @@ namespace U2141.Practice
             //hashTableSample();
 
             //Generic
-            genericCollectionSample();
+            //genericCollectionSample();
+
+
+            //C# 7.0 : Nested function
+            Console.WriteLine(getTitle("JB", "Lin"));
+            string getTitle(string firstName, string lastName) => $"{lastName} {firstName}";
 
 
             Console.ReadKey();
         }
+
 
         private static void genericCollectionSample()
         {

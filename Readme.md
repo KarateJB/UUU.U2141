@@ -16,7 +16,14 @@ Use code snippets to append codes into editor quickly.
 
 ![](assets/002.png)
 
-2.
+
+
+## C# 6.0
+1. [Expression bodied method](http://www.kunal-chowdhury.com/2014/12/csharp-6-expression-bodied-method.html#XYqZPss7xFduvydL.97)
+
+
+## C# 7.0
+2. [Local function](https://www.infoworld.com/article/3182416/application-development/c-7-in-depth-exploring-local-functions.html)
 
 
 ## C# Type
