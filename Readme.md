@@ -3,6 +3,7 @@
 * Ctrl+J : Intellisense 
 * Ctrl+K, L : List members
 * Ctrl+K, P: Show function parameter information
+* ALT+ENTER = CTRL + .
 
 ## Code Snippets
 
@@ -23,7 +24,13 @@ Use code snippets to append codes into editor quickly.
 
 
 ## C# 7.0
-2. [Local function](https://www.infoworld.com/article/3182416/application-development/c-7-in-depth-exploring-local-functions.html)
+1. [Local function](https://www.infoworld.com/article/3182416/application-development/c-7-in-depth-exploring-local-functions.html)
+
+2. [Out variable](http://www.c-sharpcorner.com/article/out-variables-in-c-sharp-7-0/)
+'''
+
+'''
+
 
 
 ## C# Type

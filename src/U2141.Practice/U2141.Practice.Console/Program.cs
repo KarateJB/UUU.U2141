@@ -28,13 +28,21 @@ namespace U2141.Practice
 
 
             //C# 7.0 : Nested function
-            Console.WriteLine(getTitle("JB", "Lin"));
-            string getTitle(string firstName, string lastName) => $"{lastName} {firstName}";
+            //Console.WriteLine(getTitle("JB", "Lin"));
+            //string getTitle(string firstName, string lastName) => $"{lastName} {firstName}";
+
+            //C# 7.0 : Out variable
+            getNewTitle(out string myTitle);
+            Console.WriteLine($"Title = {myTitle}");
 
 
             Console.ReadKey();
         }
 
+        private static void getNewTitle(out string title)
+        {
+            title = "My new title....";
+        }
 
         private static void genericCollectionSample()
         {
