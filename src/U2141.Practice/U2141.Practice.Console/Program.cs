@@ -21,25 +21,58 @@ namespace U2141.Practice
             //arrayListSample();
 
             //HashTable
-            hashTableSample();
+            //hashTableSample();
 
+            //Generic
+            genericCollectionSample();
 
 
             Console.ReadKey();
         }
 
+        private static void genericCollectionSample()
+        {
+            #region Method 1.
+            //var movies = new System.Collections.Generic.Dictionary<string,string>();
+            //movies.Add("07:00", "Good morning!");
+            //movies.Add("15:00", "Good afternoon!");
+            //movies.Add("21:00", "Good nite!");
+            #endregion
+
+            #region Method 2.
+            //var movies = new System.Collections.Generic.Dictionary<string, string>()
+            //{
+            //    { "07:00", "Good morning!" },
+            //    { "15:00", "Good afternoon!" },
+            //    { "21:00", "Good nite!" }
+            //};
+            #endregion
+
+            #region Method 3.
+            var movies = new System.Collections.Generic.Dictionary<string, string>()
+            {
+                ["07:00"] = "Good morning!",
+                ["15:00"] = "Good afternoon!",
+                ["21:00"] = "Good nite!",
+            };
+            #endregion
+
+
+            Console.WriteLine(movies["21:00"]);
+        }
+
         private static void hashTableSample()
         {
             System.Collections.Hashtable movies = new System.Collections.Hashtable();
-            movies.Add("10:00", "神力男超人");
-            movies.Add("13:00", "薑餅人：回家日");
-            movies.Add("16:00", "名偵探阿北");
-            Console.WriteLine(movies["13:00"]);
+            movies.Add("07:00", "Good morning!");
+            movies.Add("15:00", "Good afternoon!");
+            movies.Add("21:00", "Good nite!");
+            Console.WriteLine(movies["21:00"]);
         }
 
         private static void arrayListSample()
         {
-            ArrayList list= new ArrayList();
+            ArrayList list = new ArrayList();
             list.Add(100);
             list.Add("demo");
             list.Add(DateTime.Now);
