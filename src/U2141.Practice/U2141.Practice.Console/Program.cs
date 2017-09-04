@@ -27,8 +27,13 @@ namespace U2141.Practice
             //genericCollectionSample();
 
             //Function with dynamic parameters
-            int sum = dynamicParamsSample(10,20,30);
-            Console.WriteLine($"Sum={sum}");
+            //int sum = dynamicParamsSample(10,20,30);
+            //Console.WriteLine($"Sum={sum}");
+
+
+            //Decimal formatting
+            decimalFormatSample();
+
 
 
             //C# 7.0 : Nested function
@@ -47,9 +52,21 @@ namespace U2141.Practice
             //Console.WriteLine($"{data}");
 
 
+
+
             Console.ReadKey();
         }
 
+        private static void decimalFormatSample()
+        {
+            decimal d1 = 10000.5m;
+            d1 = 10_000.5m; //For readable
+            Console.WriteLine($"{d1.ToString("c")}"); //To cash 
+
+            d1 = d1 / 100;
+            Console.WriteLine($"{(d1/100).ToString("p")}"); //To percentage
+            Console.WriteLine($"{(d1/100).ToString("##.##%")}"); //To percentage
+        }
 
         private static int dynamicParamsSample(params int[] values)
         {

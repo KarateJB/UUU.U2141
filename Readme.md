@@ -27,9 +27,6 @@ Use code snippets to append codes into editor quickly.
 1. [Local function](https://www.infoworld.com/article/3182416/application-development/c-7-in-depth-exploring-local-functions.html)
 
 2. [Out variable](http://www.c-sharpcorner.com/article/out-variables-in-c-sharp-7-0/)
-'''
-
-'''
 
 
 
@@ -42,12 +39,10 @@ Use code snippets to append codes into editor quickly.
 
 ## Generic
 
-System.Collections.Generic.List includes
-* List<T>
-* Queue<T>
-* Stack<T>
-
-> Solve the boxing-unboxing problem.
+`System.Collections.Generic.List` includes
+* `List<T>`
+* `Queue<T>`
+* `Stack<T>`
 
 1. ArrayList as List
 2. HashTable as Dictionary
