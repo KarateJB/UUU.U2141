@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfTabHighlightState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TabHighlightState>
+    <extensions>
+      <string>wahlee.official.website\areas\weyacms\views\shareholder\edit.cshtml</string>
+    </extensions>
+    <highlightIndex>2</highlightIndex>
+  </TabHighlightState>
+  <TabHighlightState>
+    <extensions>
+      <string>wahlee.official.website\areas\weyacms\views\shareholder\create.cshtml</string>
+    </extensions>
+    <highlightIndex>2</highlightIndex>
+  </TabHighlightState>
+</ArrayOfTabHighlightState>

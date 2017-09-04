@@ -9,6 +9,14 @@
 Use code snippets to append codes into editor quickly.
 
 
+## C# Type
+
+1. Value
+2. Reference
+
+
+
+## 
 
 
 
