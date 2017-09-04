@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2141.Practice.Console", "U2141.Practice.Console\U2141.Practice.Console.csproj", "{A9ED2E21-1CE1-4C3D-9DC6-76BC7240967D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2141.Practice.Domain", "U2141.Practice.Domain\U2141.Practice.Domain.csproj", "{CF22EC15-9CDB-44F5-A3D7-037F7E199D5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A9ED2E21-1CE1-4C3D-9DC6-76BC7240967D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9ED2E21-1CE1-4C3D-9DC6-76BC7240967D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9ED2E21-1CE1-4C3D-9DC6-76BC7240967D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF22EC15-9CDB-44F5-A3D7-037F7E199D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF22EC15-9CDB-44F5-A3D7-037F7E199D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF22EC15-9CDB-44F5-A3D7-037F7E199D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF22EC15-9CDB-44F5-A3D7-037F7E199D5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -26,20 +26,51 @@ namespace U2141.Practice
             //Generic
             //genericCollectionSample();
 
+            //Function with dynamic parameters
+            int sum = dynamicParamsSample(10,20,30);
+            Console.WriteLine($"Sum={sum}");
+
 
             //C# 7.0 : Nested function
             //Console.WriteLine(getTitle("JB", "Lin"));
             //string getTitle(string firstName, string lastName) => $"{lastName} {firstName}";
 
             //C# 7.0 : Out variable
-            getNewTitle(out string myTitle);
-            Console.WriteLine($"Title = {myTitle}");
+            //getTitleByOut(out string myTitle);
+            //Console.WriteLine($"Title = {myTitle}");
+
+            //C# 7.0 : Ref returns
+            //string[] names = new string[] { "JB", "Lin", string.Empty };
+            //string msg = "Hello! ";
+            //ref string data = ref new Program().getNameByRef(names, msg);
+            //Console.WriteLine($"{msg}, {names[2]}");
+            //Console.WriteLine($"{data}");
 
 
             Console.ReadKey();
         }
 
-        private static void getNewTitle(out string title)
+
+        private static int dynamicParamsSample(params int[] values)
+        {
+            int result = 0;
+            for (int i = 0; i < values.Length; i++)
+            {
+                result += values[i];
+                
+            }
+            return result;
+
+        }
+
+        private ref string getNameByRef(string[] name, string msg)
+        {
+            msg = "Bravo!";
+            name[2] = $"{name[1]} {name[0]}";
+            return ref name[2];
+        }
+
+        private static void getTitleByOut(out string title)
         {
             title = "My new title....";
         }
