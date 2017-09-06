@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2141.Practice.Console", "U2141.Practice.Console\U2141.Practice.Console.csproj", "{A9ED2E21-1CE1-4C3D-9DC6-76BC7240967D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2141.Practice.Domain", "U2141.Practice.Domain\U2141.Practice.Domain.csproj", "{CF22EC15-9CDB-44F5-A3D7-037F7E199D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2141.Practice.UserInfo", "U2141.Practice.UserInfo\U2141.Practice.UserInfo.csproj", "{4E23E905-0462-4792-AC04-8DA0543CD491}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{CF22EC15-9CDB-44F5-A3D7-037F7E199D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF22EC15-9CDB-44F5-A3D7-037F7E199D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF22EC15-9CDB-44F5-A3D7-037F7E199D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E23E905-0462-4792-AC04-8DA0543CD491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E23E905-0462-4792-AC04-8DA0543CD491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E23E905-0462-4792-AC04-8DA0543CD491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E23E905-0462-4792-AC04-8DA0543CD491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7AA20F7-FDC2-4404-BFD5-6EFEF7F11BC5}
 	EndGlobalSection
 EndGlobal

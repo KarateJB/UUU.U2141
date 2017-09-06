@@ -48,6 +48,12 @@ Use code snippets to append codes into editor quickly.
 2. HashTable as Dictionary
 
 
+## Class 
 
+Class can define 
+* field
+* method
+* property
+* event
 
 
