@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using U2141.Practice.Domain;
 
 namespace U2141.Practice
 {
@@ -32,7 +33,18 @@ namespace U2141.Practice
 
 
             //Decimal formatting
-            decimalFormatSample();
+            //decimalFormatSample();
+
+            //Struct
+            BookStruct book1;
+            book1.Name = "C# is amazing!!";
+            book1.Price = 100;
+            BookStruct book2 = book1;
+            book1.Name = "Angular is amazing!!";
+            book1.Price = 200;
+
+            Console.WriteLine($"{book1.Name} : {book1.Price}");
+            Console.WriteLine($"{book2.Name} : {book2.Price}");
 
 
 

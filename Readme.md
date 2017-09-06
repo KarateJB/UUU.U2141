@@ -60,7 +60,7 @@ public String Name {
 
 ## Class 
 
-Class can define 
+It's a reference type and Class can define 
 * field
 * method
 * property
