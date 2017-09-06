@@ -65,3 +65,7 @@ It's a reference type and Class can define
 * method
 * property
 * event
+
+### Inherit
+
+Any class which doesn't inherit any parent class, will inherit `Object` in default. 

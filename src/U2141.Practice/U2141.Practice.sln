@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2141.Practice.Domain", "U2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2141.Practice.UserInfo", "U2141.Practice.UserInfo\U2141.Practice.UserInfo.csproj", "{4E23E905-0462-4792-AC04-8DA0543CD491}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2141.Practice.Atm", "U2141.Practice.Atm\U2141.Practice.Atm.csproj", "{3376F321-10E1-4981-8E75-01CC161018A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4E23E905-0462-4792-AC04-8DA0543CD491}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E23E905-0462-4792-AC04-8DA0543CD491}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E23E905-0462-4792-AC04-8DA0543CD491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3376F321-10E1-4981-8E75-01CC161018A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3376F321-10E1-4981-8E75-01CC161018A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3376F321-10E1-4981-8E75-01CC161018A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3376F321-10E1-4981-8E75-01CC161018A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
