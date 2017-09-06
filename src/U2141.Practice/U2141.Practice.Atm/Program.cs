@@ -25,7 +25,6 @@ namespace U2141.Practice.Atm
                 }
 
 
-
                 if (acAcct is CreditAccount)
                 {
                     acAcct.Deposit(200);

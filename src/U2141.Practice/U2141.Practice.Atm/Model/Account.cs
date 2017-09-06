@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,9 +23,17 @@ namespace U2141.Practice.Atm
             return this._saving + cash;
         }
 
+        ~Account()
+        {
+            this._saving = 0;
+            Console.WriteLine("Finalize!");
+        }
+
         public void Dispose()
         {
             this._saving = 0;
+            Console.WriteLine("Dispose!");
+            GC.SuppressFinalize(this); //CLR wont call the finalizer
         }
 
         /// <summary>

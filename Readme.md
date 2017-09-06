@@ -100,3 +100,34 @@ Any class which doesn't inherit any parent class, will inherit `Object` in defau
 
 Reference:
 * [Type Checking: typeof, GetType, or is?](https://stackoverflow.com/a/983061/7045253)
+
+
+## Constructor & Finalize
+
+* Constructor calling anothoer one
+```
+public Book():this("暫無名稱")
+{
+
+}
+
+public Book(string name)
+{
+    this._name = name;
+}
+```
+
+* Do not call the finalize when already disposed
+
+```
+~Account()
+{
+    Console.WriteLine("Finalize!");
+}
+
+public void Dispose()
+{
+    Console.WriteLine("Dispose!");
+    GC.SuppressFinalize(this); //CLR wont call the finalizer
+}
+```
