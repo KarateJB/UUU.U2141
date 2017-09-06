@@ -28,6 +28,16 @@ Use code snippets to append codes into editor quickly.
 
 2. [Out variable](http://www.c-sharpcorner.com/article/out-variables-in-c-sharp-7-0/)
 
+3. Propfull
+
+```
+private string _name = string.Empty;
+private DateTime _modiftOn { get; set; } = DateTime.Now;
+public String Name {
+    get => this._name;
+    set { this._name = value; }
+}
+```
 
 
 ## C# Type
@@ -55,5 +65,3 @@ Class can define
 * method
 * property
 * event
-
-

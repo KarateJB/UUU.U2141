@@ -8,18 +8,19 @@ using System.Threading.Tasks;
 
 namespace U2141.Practice.UserInfo.Model
 {
-    public class UserInfo
+    public class User
     {
         private string path = $"{AppDomain.CurrentDomain.BaseDirectory}//UserInfo.ini";
         private string _name = string.Empty;
-
         private DateTime _modiftOn { get; set; } = DateTime.Now;
 
         public System.Drawing.Color BackColor { get; set; }
-        public String Name {
+        public String Name
+        {
             get => this._name;
             set { this._name = value; }
         }
+
 
         public void Save()
         {
@@ -28,10 +29,10 @@ namespace U2141.Practice.UserInfo.Model
                 File.Create(path);
             }
 
-            using (var sw = new StreamWriter(path))
+            using (var sw = new StreamWriter(path, append:false))
             {
                 sw.WriteLine(this.Name);
-                sw.WriteLine(this.BackColor);
+                sw.WriteLine(this.BackColor.ToArgb());
                 sw.WriteLine(DateTime.Now.ToString());
             }
         }
