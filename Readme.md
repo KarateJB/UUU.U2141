@@ -22,6 +22,16 @@ Use code snippets to append codes into editor quickly.
 ## C# 6.0
 1. [Expression bodied method](http://www.kunal-chowdhury.com/2014/12/csharp-6-expression-bodied-method.html#XYqZPss7xFduvydL.97)
 
+2. Null validation
+
+```
+//if(obj!=null)
+//  obj.Print();
+
+obj?.Print();
+```
+
+
 
 ## C# 7.0
 1. [Local function](https://www.infoworld.com/article/3182416/application-development/c-7-in-depth-exploring-local-functions.html)
@@ -69,3 +79,24 @@ It's a reference type and Class can define
 ### Inherit
 
 Any class which doesn't inherit any parent class, will inherit `Object` in default. 
+
+
+### Virtual
+
+* [了解使用 Override 和 New 關鍵字的時機](https://docs.microsoft.com/zh-tw/dotnet/csharp/programming-guide/classes-and-structs/knowing-when-to-use-override-and-new-keywords)
+
+
+### Type convertion
+
+1. `As` will return null while convert fails
+2. `()` will throw exception while convert fails
+
+> `typeof` : takes a type name (which you specify at compile time).
+>
+> `GetType` :  gets the runtime type of an instance.
+>
+> `is` : returns true if an instance is in the inheritance tree.
+
+
+Reference:
+* [Type Checking: typeof, GetType, or is?](https://stackoverflow.com/a/983061/7045253)

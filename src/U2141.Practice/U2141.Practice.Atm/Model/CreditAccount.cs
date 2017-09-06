@@ -13,10 +13,17 @@ namespace U2141.Practice.Atm.Model
         }
 
 
-        public int MyProperty
+        public int BonusPoint
         {
             get => default(int);
             set {}
+        }
+        
+
+        public new decimal Withdraw(decimal cash)
+        {
+            Console.WriteLine("New one");
+            return base.Withdraw(cash);
         }
 
     }

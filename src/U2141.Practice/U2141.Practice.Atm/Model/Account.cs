@@ -6,18 +6,35 @@ using System.Threading.Tasks;
 
 namespace U2141.Practice.Atm
 {
-    internal class Account
+    internal class Account:IDisposable
     {
+        protected decimal _saving = 0;
         public string Id { get; set; }
-        public decimal Balance { get; private set; }
-        public void Deposit()
+        public decimal Balance { get { return this._saving; } private set { } }
+
+        /// <summary>
+        /// 存款
+        /// </summary>
+        /// <returns></returns>
+        public decimal Deposit(decimal cash)
         {
-            throw new NotImplementedException();
+            this._saving += cash;
+            return this._saving + cash;
         }
 
-        public decimal Withdraw()
+        public void Dispose()
         {
-            throw new NotImplementedException();
+            this._saving = 0;
+        }
+
+        /// <summary>
+        /// 提款
+        /// </summary>
+        /// <returns></returns>
+        public virtual decimal Withdraw(decimal cash)
+        {
+            this._saving -= cash;
+            return this._saving - cash;
         }
     }
 }
