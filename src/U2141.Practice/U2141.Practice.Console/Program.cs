@@ -9,8 +9,12 @@ using static System.Console;
 
 namespace U2141.Practice
 {
+    
+    internal delegate int CalculateDelegate(int a, int b);
+
     class Program
     {
+
         static void Main(string[] args)
         {
             //Array copy
@@ -48,14 +52,21 @@ namespace U2141.Practice
             //Console.WriteLine($"{book2.Name} : {book2.Price}");
 
             //Static property
-            StaticBook js = new StaticBook() { Name = "JS" };
-            Console.WriteLine($"{js.ToString()}");
-            StaticBook cSharp = new StaticBook() { Name = "C#" };
-            Console.WriteLine($"{cSharp.ToString()}");
-            StaticBook angular = new StaticBook() { Name = "Angular" };
-            Console.WriteLine($"{angular.ToString()}");
+            //StaticBook js = new StaticBook() { Name = "JS" };
+            //Console.WriteLine($"{js.ToString()}");
+            //StaticBook cSharp = new StaticBook() { Name = "C#" };
+            //Console.WriteLine($"{cSharp.ToString()}");
+            //StaticBook angular = new StaticBook() { Name = "Angular" };
+            //Console.WriteLine($"{angular.ToString()}");
 
+            //Delegate
+            CalculateDelegate calculate = Calculator.Add;
+            calculate += Calculator.Minus;
+            calculate += Calculator.Divide;
+            calculate += Calculator.Multiplicate;
 
+            var result = calculate(5, 6);
+            Console.WriteLine($"{result}");
 
 
 

@@ -5,36 +5,45 @@
       <string>d:\works\source control\github\karatejb\uuu.u2141\src\u2141.practice\u2141.practice.console\program.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.UserInfo\Model\UserInfo.cs</string>
+      <string>d:\works\source control\github\karatejb\uuu.u2141\src\u2141.practice\u2141.practice.userinfo\model\userinfo.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>d:\works\source control\github\karatejb\uuu.u2141\src\u2141.practice\u2141.practice.userinfo\mainform.cs</string>
       <string>d:\works\source control\github\karatejb\uuu.u2141\src\u2141.practice\u2141.practice.userinfo\mainform.cs</string>
-      <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.UserInfo\MainForm.Designer.cs</string>
+      <string>d:\works\source control\github\karatejb\uuu.u2141\src\u2141.practice\u2141.practice.userinfo\mainform.designer.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.Domain\Book.cs</string>
+      <string>d:\works\source control\github\karatejb\uuu.u2141\src\u2141.practice\u2141.practice.domain\book.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.UserInfo\Program.cs</string>
+      <string>d:\works\source control\github\karatejb\uuu.u2141\src\u2141.practice\u2141.practice.userinfo\program.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.Domain\BookStruct.cs</string>
+      <string>d:\works\source control\github\karatejb\uuu.u2141\src\u2141.practice\u2141.practice.domain\bookstruct.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.Atm\Program.cs</string>
+      <string>d:\works\source control\github\karatejb\uuu.u2141\src\u2141.practice\u2141.practice.atm\program.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.Atm\Model\Account.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.Atm\Model\SavingAccount.cs</string>
+      <string>d:\works\source control\github\karatejb\uuu.u2141\src\u2141.practice\u2141.practice.atm\model\savingaccount.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.Atm\Model\CreditAccount.cs</string>
+      <string>d:\works\source control\github\karatejb\uuu.u2141\src\u2141.practice\u2141.practice.atm\model\creditaccount.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.Domain\AbsBook.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.Domain\LordOfRings.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>原始檔控制總管 - 已中斷連線</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Works\Source Control\GitHub\KarateJB\UUU.U2141\src\U2141.Practice\U2141.Practice.Domain\StaticBook.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

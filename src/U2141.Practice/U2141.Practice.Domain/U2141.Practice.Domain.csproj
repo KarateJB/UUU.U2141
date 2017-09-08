@@ -45,6 +45,7 @@
     <Compile Include="AbsBook.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="BookStruct.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="LordOfRings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StaticBook.cs" />
