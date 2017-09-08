@@ -31,6 +31,17 @@ Use code snippets to append codes into editor quickly.
 obj?.Print();
 ```
 
+3. using static 
+
+```
+using static System.Console;
+
+void main()
+{
+    //Replace Console.WriteLine("xxxxxx")
+    WriteLine("xxxxxx");
+}
+```
 
 
 ## C# 7.0
