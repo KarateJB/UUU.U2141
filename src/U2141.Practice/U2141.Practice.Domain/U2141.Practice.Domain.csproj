@@ -47,6 +47,7 @@
     <Compile Include="BookStruct.cs" />
     <Compile Include="LordOfRings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticBook.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -36,15 +36,25 @@ namespace U2141.Practice
             //decimalFormatSample();
 
             //Struct
-            BookStruct book1;
-            book1.Name = "C# is amazing!!";
-            book1.Price = 100;
-            BookStruct book2 = book1;
-            book1.Name = "Angular is amazing!!";
-            book1.Price = 200;
+            //BookStruct book1;
+            //book1.Name = "C# is amazing!!";
+            //book1.Price = 100;
+            //BookStruct book2 = book1;
+            //book1.Name = "Angular is amazing!!";
+            //book1.Price = 200;
 
-            Console.WriteLine($"{book1.Name} : {book1.Price}");
-            Console.WriteLine($"{book2.Name} : {book2.Price}");
+            //Console.WriteLine($"{book1.Name} : {book1.Price}");
+            //Console.WriteLine($"{book2.Name} : {book2.Price}");
+
+            //Static property
+            StaticBook js = new StaticBook() { Name = "JS" };
+            Console.WriteLine($"{js.ToString()}");
+            StaticBook cSharp = new StaticBook() { Name = "C#" };
+            Console.WriteLine($"{cSharp.ToString()}");
+            StaticBook angular = new StaticBook() { Name = "Angular" };
+            Console.WriteLine($"{angular.ToString()}");
+
+
 
 
 
