@@ -14,6 +14,8 @@ namespace U2141.Practice
 
     class Program
     {
+        private static event CalculateDelegate CalculateEvent = null;
+
 
         static void Main(string[] args)
         {
@@ -60,12 +62,22 @@ namespace U2141.Practice
             //Console.WriteLine($"{angular.ToString()}");
 
             //Delegate
-            CalculateDelegate calculate = Calculator.Add;
-            calculate += Calculator.Minus;
-            calculate += Calculator.Divide;
-            calculate += Calculator.Multiplicate;
+            //CalculateDelegate calculate = Calculator.Add;
+            //calculate += Calculator.Minus;
+            //calculate += Calculator.Divide;
+            //calculate += Calculator.Multiplicate;
 
-            var result = calculate(5, 6);
+            //var result = calculate(5, 6);
+            //Console.WriteLine($"{result}");
+
+
+            //Event
+            CalculateEvent += Calculator.Add;
+            //calculate += Calculator.Minus;
+            //calculate += Calculator.Divide;
+            //calculate += Calculator.Multiplicate;
+
+            var result = CalculateEvent?.Invoke(5, 6);
             Console.WriteLine($"{result}");
 
 

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2141.Practice.UserInfo", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2141.Practice.Atm", "U2141.Practice.Atm\U2141.Practice.Atm.csproj", "{3376F321-10E1-4981-8E75-01CC161018A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "U2141.Practice.Linq", "U2141.Practice.Linq\U2141.Practice.Linq.csproj", "{2D482749-5B66-40B3-BB3D-04001635653B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3376F321-10E1-4981-8E75-01CC161018A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3376F321-10E1-4981-8E75-01CC161018A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3376F321-10E1-4981-8E75-01CC161018A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D482749-5B66-40B3-BB3D-04001635653B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D482749-5B66-40B3-BB3D-04001635653B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D482749-5B66-40B3-BB3D-04001635653B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D482749-5B66-40B3-BB3D-04001635653B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
